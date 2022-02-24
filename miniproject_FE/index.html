@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yack! 그거 무슨 약이야! 알고먹어!</title>
+    <!-- Font-awesome 설정 코드 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css" />
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jua&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <!-- <script type="module" src="function.js"></script> -->
+    <script defer type="module" src="service.js"></script>
+</head>
+    
+<body>
+    <article>
+        <header>
+            <div class="Header">
+                <div class="Header__main">
+                    <h1 class="Header__main__logo">
+                        <img id="logo" style="width:150px; height:100px" src="https://user-images.githubusercontent.com/71051838/155442830-760e222d-5839-4d1d-a6f1-0c74e0916026.png" alt="yark logo">
+                    </h1>
+                    <ul class="Header__main__menu">
+                        <input type="text" class="Header__main__menu__text">
+                        <li><i class="fas fa-microphone fa-2x"></i></li>
+                        <li><button class="Header__main__menu__search">검색</button></li>
+                    </ul>
+                </div>
+                <div class="Header__sub">
+                    <div class="Header__sub__profile">
+                        <div class="Header__sub__profile__image">
+                            <i class="fas fa-child fa-2x"></i>
+                        </div>
+                        <div class="Header__sub__profile__page">
+                            <a href=""><p class="colorful-font">my page</p></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+        </header>
+
+        <section style="height: 60vh">
+            
+            <img src="./images/img1.JPG" alt="This is drug picture" id="introImg">
+            
+        </section>
+
+
+
+
+        <footer>
+            <hr>
+            <div class="Footer">
+                <p class="Footer__corp">&copy; 2022 Company, Inc</p>
+
+                <!-- ul.footer__sns>li*3>i -->
+                <ul class="Footer__sns">
+                    <li><i class="fab fa-facebook fa-lg"></i></li>
+                    <li><i class="fab fa-instagram fa-lg"></i></li>
+                    <li><i class="fab fa-discord fa-lg"></i></li>
+                </ul>
+
+                <!-- ul.Footer__menu>li*5>a -->
+                <ul class="Footer__menu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Features</a></li>
+                    <li><a href="#">Pricing</a></li>
+                    <li><a href="#">FAQs</a></li>
+                    <li><a href="#">About</a></li>
+                </ul>
+            </div>
+        </footer>
+    </article>
+</body>
+</html>

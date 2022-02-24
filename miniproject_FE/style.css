@@ -1,0 +1,249 @@
+/* reset.css */
+
+  html, body {
+      box-sizing: border-box;
+      font-family: 'Nanum Gothic', 'sans-serif';
+      font-weight: 700;
+  }
+  
+  ul {
+      list-style: none;
+      margin: 0;
+  }
+  
+  a,
+  a:link,
+  a:visited,
+  a:active,
+  a:hover {
+      text-decoration: none;
+      color: #212529;
+  }
+
+  hr {
+    margin: 0;
+  }
+  
+  /* General */
+  * {
+    font-family: 'Jua', sans-serif;;
+  }
+
+  i {
+      color: #6c757d;
+  }
+  
+  body {
+      height: 100vh;
+      /* position: relative; */
+  }
+  
+  article {
+      display: flex;
+      flex-direction: column;
+      align-items: stretch;
+      min-height: 100%;
+  }
+  
+  header {
+      height: 130px;
+  }
+  
+  section {
+      flex-grow: 1;
+      height: auto;
+      display: flex;
+      justify-content: center;
+  }
+  
+  header,
+  section,
+  footer {
+      flex-shrink: 0;
+  }
+  
+  /* Header */
+  .Header {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      margin: 0 60px;
+      padding: 10px 0;
+  }
+  
+  .Header__main {
+      display: flex;
+      align-items: center;
+      height: 100px;
+  }
+  
+  .Header__main__menu {
+      display: flex;
+      margin-left: 100px;
+  }
+
+  .Header__main__menu li {
+      margin: 6px;
+      font-size: 1rem;
+  }
+
+  .Header__main__menu__text {
+    width: 500px;
+    height:40px;
+    font-size: large;
+    letter-spacing: 3px;
+    border-color: palegreen;
+  }
+
+  .Header__main__menu__search {
+    font-size: 1.5rem;
+    color: gray;
+    letter-spacing: 2.5px;
+    background-color: greenyellow;
+    border-color: lawngreen;
+    border-radius: 0.25rem;
+  }
+  .Header__sub {
+      display: flex;
+  }
+
+  .Header__sub__profile {
+      display: flex;
+      align-items: center;
+      margin-left: 14px;
+  }
+  
+  .Header__sub__profile__page {
+      margin-left: 10px;
+      font-size: 2rem;
+  }
+  
+  /* section */
+  section {
+    display: flex;
+  }
+
+
+
+  /* Dynamic color */
+  .colorful-font,
+  .Header__sub__profile__image i {
+    margin-right: 0;
+    color: #313131;
+    font-weight: bold;
+    -webkit-animation: colorchange 10s infinite alternate;
+    animation: colorchange 10s infinite alternate;
+  }
+  
+  @-webkit-keyframes colorchange {
+    0% {
+      color: blue;
+    }
+  
+    10% {
+      color: #8e44ad;
+    }
+  
+    20% {
+      color: #1abc9c;
+    }
+  
+    30% {
+      color: #d35400;
+    }
+  
+    40% {
+      color: blue;
+    }
+  
+    50% {
+      color: #34495e;
+    }
+  
+    60% {
+      color: blue;
+    }
+  
+    70% {
+      color: #2980b9;
+    }
+    80% {
+      color: #f1c40f;
+    }
+  
+    90% {
+      color: #2980b9;
+    }
+  
+    100% {
+      color: pink;
+    }
+  }
+  
+  @keyframes colorchange {
+    0% {
+      color: blue;
+    }
+  
+    10% {
+      color: #8e44ad;
+    }
+  
+    20% {
+      color: #1abc9c;
+    }
+  
+    30% {
+      color: #d35400;
+    }
+  
+    40% {
+      color: blue;
+    }
+  
+    50% {
+      color: #34495e;
+    }
+  
+    60% {
+      color: blue;
+    }
+  
+    70% {
+      color: #2980b9;
+    }
+    80% {
+      color: #f1c40f;
+    }
+  
+    90% {
+      color: #2980b9;
+    }
+  
+    100% {
+      color: pink;
+    }
+  }
+  
+  /* Footer */
+  .Footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+  }
+  
+  .Footer__sns {
+    display: flex;
+  }
+  
+  .Footer__sns li {
+    margin: 0 10px;
+  }
+  
+  .Footer__menu {
+    display: flex;
+  }
+  
+  .Footer__menu li {
+    margin: 0 10px;
+  }

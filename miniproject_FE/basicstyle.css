@@ -1,0 +1,119 @@
+#wrap {
+    position: relative;
+
+    /* word-break: keep-all; */
+    /* overflow-x: auto; */
+    min-width: 1400px;
+}
+
+.inner {
+    position: relative;
+    margin: 0 auto;
+    width: 1080px;
+}
+
+.product_list .suceessMsg {
+    display: block;
+    padding: 20px;
+    text-align: center;
+    background: #e7d9ee;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px 0 rgb(0 0 0 / 15%);
+    color: white;
+}
+
+.product_list .suceessMsg .all_count {
+    margin-top: 30px;
+    font-weight: 700;
+    font-size: 20px;
+    color: #000;
+}
+
+.product_list .suceessMsg .all_count p span {
+    color: #7b23a8;
+}
+
+
+.product_list .list_div {
+    margin-top: 36px;
+}
+
+.product_list .list_div .pd_list:nth-child(3n+1) {
+    margin-left: 0;
+    clear: both;
+}
+
+.product_list .list_div .pd_list {
+    position: relative;
+    float: left;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    width: 340px;
+    border-radius: 20px;
+    background: #f9f9f9;
+}
+
+.product_list .list_div .pd_list .link_area {
+    display: block;
+    position: relative;
+    padding: 28px 20px 20px;
+    height: 270px;
+}
+
+.product_list .list_div .pd_list .link_area .thumb {
+    position: absolute;
+    top: 1;
+    right: 0;
+    margin:10px;
+    width: 120px;
+    height: 80px;
+    border-radius: 20px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.product_list .list_div .pd_list .link_area .info {
+    position: relative;
+    padding-right: 116px;
+}
+
+.product_list .list_div .pd_list .cart_btn {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    padding: 14px 0;
+    width: 300px;
+    height: 56px;
+    text-align: center;
+    background: #fff;
+    border-radius: 16px;
+}
+
+a {
+    text-decoration: none;
+    color: #555;
+    border: none;
+}
+
+
+.product_list .list_div .pd_list .link_area .info .name {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000;
+}
+
+.product_list .list_div .pd_list .link_area .info .name span {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000;
+}
+
+.product_list .list_div .pd_list .link_area .info .name b {
+    display: block;
+    margin-top: 12px;
+    font-size: 14px;
+    line-height: 18px;
+    color: #999;
+}
